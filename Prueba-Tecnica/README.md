@@ -21,7 +21,7 @@ npm install
 npm run start:dev
 Swagger API Docs: http://localhost:3000/api/docs
 
-2. Frontend (React + Vite)
+### 2. Frontend (React + Vite)
 cd Front/Front
 npm install
 npm run dev
