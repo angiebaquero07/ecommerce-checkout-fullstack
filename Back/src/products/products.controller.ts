@@ -6,7 +6,7 @@ import { Product } from '../entities/product.entity';
 @ApiTags('Products')
 @Controller('products')
 export class ProductsController {
-  constructor(private readonly productsService: ProductsService) {}
+  constructor(private readonly productsService: ProductsService) { }
 
   @Get()
   @ApiOperation({ summary: 'Obtener todos los productos disponibles' })
